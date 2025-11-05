@@ -2,7 +2,7 @@ Yarış navigasyonu:
 Sürücülerin belirlenen bir rota üzerinde doğru ve güvenli bir şekilde ilerlemesini sağlamak amacıyla kullanılan bir sistemdir. 
 Temel amacı, sürücülere gerçek zamanlı konum bilgisi, yol takibi, tur süreleri ve tur sayısı gibi verilerin sunulmasıdır.
 
-Temel Bileşenler
+Temel Bileşenler:
 1.	Küresel Konumlandırma Sistemi Alıcısı (GPS): Aracın anlık konumunu enlem, boylam ve yükseklik açısından hassas bir şekilde belirlemek için kullanılır.
 2.	Haritalama ve KML formatı: Yarış parkurunun önceden tanımlanmış haritalarını ve KML ile kaydedilmiş rota koordinatlarını içerir. 
 Bu koordinatlar, sürücünün anlık olarak nerede olması gerektiğini içerir.
