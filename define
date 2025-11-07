@@ -7,3 +7,6 @@ Temel Bileşenler:
 2.	Haritalama ve KML formatı: Yarış parkurunun önceden tanımlanmış haritalarını ve KML ile kaydedilmiş rota koordinatlarını içerir. 
 Bu koordinatlar, sürücünün anlık olarak nerede olması gerektiğini içerir.
 3.	Görsel Ekran ve Kullanıcı Arayüzü: Sürücüye anlık konum, rota, tur sayısı ve tur süresi gibi bilgileri gösteren bir ekrana ve arayüze sahiptir.
+
+Kullanacağım GPS modulü olan "Ublox NEO M8N" seramik antenli ve düşük güç tüketimi seviyelerinde de yüksek performans sunan bu modül içerisinde dahili bir “flash” içerir.
+UART portu bir UART-USB dönüştürücü ile kullanılacaktır.
