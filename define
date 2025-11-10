@@ -1,3 +1,16 @@
+Bilgisayar mühendisliği eğitimim boyunca öğrendiğim teorik bilgileri ve kazandığım problem çözme yeteneğini, 
+yazılım ve donanım sentezli projelerde birleştirme hedefim var. 
+Otomotiv endüstrisi, artık sadece mekanik ve motor gücünün bir araya geldiği bir alan olmaktan çıkmış,
+yazılımın entegrasyonuyla birlikte yeniden şekillenen bir sektöre dönüşmüştür.
+Geçmişte otomobillerdeki yazılım, daha çok temel motor yazılımları ve basit eğlence sistemleriyle sınırlıydı.
+Artık bir otomobilin performansını, güvenliğini, konforunu ve verimliliğini belirleyen en önemli unsurlardan biri
+aracın çeşitli unsurlarında kullanılan yazılımlardır. Gelişmiş Sürücü Destek Sistemleri (ADAS), otonom sürüş teknolojileri,
+yapay zeka tabanlı kişisel asistanlar, bulut bağlantılı araç servisleri ve eğlence sistemleri gibi yenilikler gün geçtikçe gelişimini sürdürmektedir.
+Özellikle üzerinde çalışmayı hedeflediğim projeler arasında, özellikle “yarış navigasyonu” için optimal rota ve hız stratejileri
+geliştiren sistemler, kamera görüntülerini işleyerek aracın şeritte kalmasını sağlayan “şerit takip asistanları” ve yapay zeka modelleriyle
+“trafik levhalarını algılayıp sürücüyü bilgilendiren akıllı sistemler” gibi projeler üzerinde çalışarak bu alandaki yeteneklerimi geliştirmektir.
+Birincil hedefim, Python gibi sektörde yaygın olarak kullanılan programlama dillerini yapacağım projelerdeki uygulamalarla pekiştirmektir.
+
 Yarış navigasyonu: 
 Sürücülerin belirlenen bir rota üzerinde doğru ve güvenli bir şekilde ilerlemesini sağlamak amacıyla kullanılan bir sistemdir. 
 Temel amacı, sürücülere gerçek zamanlı konum bilgisi, yol takibi, tur süreleri ve tur sayısı gibi verilerin sunulmasıdır.
