@@ -29,3 +29,9 @@ ve görsel bir arayüz üzerinde sunmayı düşünüyorum. Projemin temel amacı
 konum verisini, gelişmiş algoritmalar kullanarak arındırmak ve aracın pist üzerindeki gerçek konumuna en yakın şekilde tahmin etmektir. 
 Bu sayede, yarış sırasında sürücüye anlık olarak aracın konumu, tamamlanan tur sayısı ve tur süresi gibi bilgileri sunulabilmektedir.
 
+Projenin ana bileşenleri şunlardır:
+1.	Veriyi Alma: Gerçek bir GPS modülünden seri port aracılığıyla veya test amaçlı bir simülatörden NMEA formatında konum verisi alma.
+2.	Veriyi İşleme: Ham GPS verisindeki hataları ve sapmaları minimize etmek için Kalman Filtresi uygulama.
+3.	Konum Eşleştirme (Map Matching): Filtrelenmiş konum verisini, önceden tanımlanmış pist rotasına "oturtarak" aracın her zaman yol üzerinde görünmesini sağlama.
+4.	Görselleştirme: Pygame kütüphanesi ile pistin, aracın ve diğer telemetri bilgilerinin (tur sayısı vb.) gösterildiği bir grafik arayüz oluşturma.
+5.	Sonuç: Tur sayacını ve yarış süresini hesaplayarak performans takibi yapma.
