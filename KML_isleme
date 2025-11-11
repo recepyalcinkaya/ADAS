@@ -1,1 +1,8 @@
+Sistemin aracı doğru bir şekilde pist üzerinde gösterebilmesi için öncelikle pistin geometrisini bilmesi gerekir.
+Bu bilgiyi sisteme tanıtmak için “Google Maps” gibi platformlarda “My maps” üzerinden kolayca oluşturulabilen
+ve coğrafi verileri saklamak için standartlaşmış bir format olan KML (Keyhole Markup Language) dosyası kullanacağım.
+
+KML Dosyası: KML, XML tabanlı bir dosya formatıdır ve coğrafi verileri ve bunlarla ilişkili özellikleri tanımlamak için kullanılır.
+Benim projemde KML dosyası, yarış pistinin ideal sürüş çizgisini temsil eden bir dizi coğrafi koordinatı
+(enlem, boylam) barındıran bir <LineString> etiketi içerecektir.
 
