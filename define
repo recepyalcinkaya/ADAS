@@ -23,3 +23,9 @@ Bu koordinatlar, sürücünün anlık olarak nerede olması gerektiğini içerir
 
 Kullanacağım GPS modulü olan "Ublox NEO M8N" seramik antenli ve düşük güç tüketimi seviyelerinde de yüksek performans sunan bu modül içerisinde dahili bir “flash” içerir.
 UART portu bir UART-USB dönüştürücü ile kullanılacaktır.
+
+Yarış pistindeki aracın konumunu GPS verilerini kullanarak gerçek zamanlı olarak takip etmeyi, bu veriyi işleyerek daha hassas hale getirmeyi
+ve görsel bir arayüz üzerinde sunmayı düşünüyorum. Projemin temel amacı, GPS modüllerinden gelen ham ve genellikle "gürültülü" (hatalı) 
+konum verisini, gelişmiş algoritmalar kullanarak arındırmak ve aracın pist üzerindeki gerçek konumuna en yakın şekilde tahmin etmektir. 
+Bu sayede, yarış sırasında sürücüye anlık olarak aracın konumu, tamamlanan tur sayısı ve tur süresi gibi bilgileri sunulabilmektedir.
+
