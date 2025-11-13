@@ -6,3 +6,5 @@ KML Dosyası: KML, XML tabanlı bir dosya formatıdır ve coğrafi verileri ve b
 Benim projemde KML dosyası, yarış pistinin ideal sürüş çizgisini temsil eden bir dizi coğrafi koordinatı
 (enlem, boylam) barındıran bir <LineString> etiketi içerecektir.
 
+KML Dosyasının Okunması ve İşlenmesi: KML dosyasını okuyup içindeki koordinatları ayıklamakla görevlidir.
+
