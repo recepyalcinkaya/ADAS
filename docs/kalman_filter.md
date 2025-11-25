@@ -4,3 +4,4 @@ Kalman Filtresi: Kalman Filtresi, güçlü bir özyinelemeli (recursive) matemat
 
 Filtre, iki ana adımda çalışır;
 1.	Tahmin (Prediction): Sistem hakkında bildiğimiz dinamik modelini (örneğin, bir aracın sabit hızla gittiği varsayımı) kullanarak, bir sonraki zaman adımında sistemin durumunun ne olacağını ve bu tahmindeki belirsizliği tahmin eder.
+2.	Güncelleme (Update): Gerçek sensörden (GPS) yeni bir ölçüm geldiğinde, bu ölçümü kullanarak ilk tahmini düzeltir. Filtre, hem kendi tahminindeki belirsizliği hem de gelen ölçümün gürültüsünü hesaba katarak en olası "gerçek" durumu hesaplar. Eğer filtre kendi tahminine çok güveniyorsa ve gelen ölçüm çok gürültülüyse, ölçümün etkisini azaltır. Aksi halde ise ölçüme daha fazla ağırlık verir.
