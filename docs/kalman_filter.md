@@ -1,1 +1,3 @@
 GPS sistemleri, uydulardan gelen sinyallerin atmosferdeki bozulmaları, binalardan yansımaları ve uydu geometrisindeki değişimler gibi nedenlerle hatalı veya "gürültülü" veriler üretebilir. Bu durum, aracın konumunun harita üzerinde aniden zıplamasına veya titremesine neden olur. Bu gürültüyü temizlemek ve aracın gerçek hareketini daha pürüzsüz bir şekilde tahmin etmek için Kalman Filtresi'ni kullanılabilir.
+
+Kalman Filtresi: Kalman Filtresi, güçlü bir özyinelemeli (recursive) matematiksel algoritmadır. Temel amacı, zaman içinde değişen bir sistemin durumunu, gürültülü ölçümler serisini kullanarak tahmin etmektir.
