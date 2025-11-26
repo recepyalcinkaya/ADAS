@@ -7,3 +7,5 @@ Filtre, iki ana adımda çalışır;
 2.	Güncelleme (Update): Gerçek sensörden (GPS) yeni bir ölçüm geldiğinde, bu ölçümü kullanarak ilk tahmini düzeltir. Filtre, hem kendi tahminindeki belirsizliği hem de gelen ölçümün gürültüsünü hesaba katarak en olası "gerçek" durumu hesaplar. Eğer filtre kendi tahminine çok güveniyorsa ve gelen ölçüm çok gürültülüyse, ölçümün etkisini azaltır. Aksi halde ise ölçüme daha fazla ağırlık verir.
 
 Bu sürekli "tahmin et ve düzelt" döngüsü sayesinde Kalman Filtresi, anlık hatalı ölçümlerden çok fazla etkilenmeden, sistemin pürüzsüz bir şekilde çalışmasını sağlar.
+
+Kalman Filtresi'nin teorik yapısını, kodumda “filterpy” kütüphanesi ve numpy matrisleri kullanarak somut bir şekilde uyguladım. Filtrenin davranışını belirleyen en önemli unsurlar, onun matematiksel modelini tanımlayan matrislerdir.
