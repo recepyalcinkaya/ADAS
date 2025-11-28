@@ -9,3 +9,5 @@ Filtre, iki ana adımda çalışır;
 Bu sürekli "tahmin et ve düzelt" döngüsü sayesinde Kalman Filtresi, anlık hatalı ölçümlerden çok fazla etkilenmeden, sistemin pürüzsüz bir şekilde çalışmasını sağlar.
 
 Kalman Filtresi'nin teorik yapısını, kodumda “filterpy” kütüphanesi ve numpy matrisleri kullanarak somut bir şekilde uyguladım. Filtrenin davranışını belirleyen en önemli unsurlar, onun matematiksel modelini tanımlayan matrislerdir.
+
+ÖLÇÜM VE SÜREÇ GÜRÜLTÜ KOVARYANSINI OPTİMİZE ETME:
