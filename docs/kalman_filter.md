@@ -11,3 +11,4 @@ Bu sürekli "tahmin et ve düzelt" döngüsü sayesinde Kalman Filtresi, anlık 
 Kalman Filtresi'nin teorik yapısını, kodumda “filterpy” kütüphanesi ve numpy matrisleri kullanarak somut bir şekilde uyguladım. Filtrenin davranışını belirleyen en önemli unsurlar, onun matematiksel modelini tanımlayan matrislerdir.
 
 ÖLÇÜM VE SÜREÇ GÜRÜLTÜ KOVARYANSINI OPTİMİZE ETME:
+kf.x (Durum Vektörü): Filtrenin takip ettiği değişkenleri temsil eder. Benim modelimde 4 durum değişkeni var: [enlem, boylam, enlemdeki_hız, boylamdaki_hız]. Filtrenin amacı bu dört değeri en doğru şekilde tahmin etmektir.
