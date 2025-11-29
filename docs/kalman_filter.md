@@ -14,3 +14,5 @@ Kalman Filtresi'nin teorik yapısını, kodumda “filterpy” kütüphanesi ve 
 kf.x (Durum Vektörü): Filtrenin takip ettiği değişkenleri temsil eder. Benim modelimde 4 durum değişkeni var: [enlem, boylam, enlemdeki_hız, boylamdaki_hız]. Filtrenin amacı bu dört değeri en doğru şekilde tahmin etmektir.
 
 kf.F (Durum Geçiş Matrisi): Sistemin bir zaman adımından diğerine nasıl geçtiğini modeller. Benim kullandığım "sabit hız" modeline göre, yeni konum = eski konum + (hız * zaman_aralığı) ve yeni hız = eski hız. Bu matris, ana döngü içinde geçen süreye bağlı olarak sürekli güncellenir.
+
+kf.H (Ölçüm Matrisi): Durum vektörünü, sensörden gelen ölçüm formatına dönüştürür. GPS'imiz bize sadece konumu (enlem, boylam) verir, hızı doğrudan ölçmez. Bu matris, 4 boyutlu durum vektörümüzden sadece ilk iki elemanı (enlem ve boylamı) alarak bunu modeller.
