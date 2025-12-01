@@ -16,3 +16,5 @@ kf.x (Durum Vektörü): Filtrenin takip ettiği değişkenleri temsil eder. Beni
 kf.F (Durum Geçiş Matrisi): Sistemin bir zaman adımından diğerine nasıl geçtiğini modeller. Benim kullandığım "sabit hız" modeline göre, yeni konum = eski konum + (hız * zaman_aralığı) ve yeni hız = eski hız. Bu matris, ana döngü içinde geçen süreye bağlı olarak sürekli güncellenir.
 
 kf.H (Ölçüm Matrisi): Durum vektörünü, sensörden gelen ölçüm formatına dönüştürür. GPS'imiz bize sadece konumu (enlem, boylam) verir, hızı doğrudan ölçmez. Bu matris, 4 boyutlu durum vektörümüzden sadece ilk iki elemanı (enlem ve boylamı) alarak bunu modeller.
+
+kf.R (Ölçüm Gürültüsü Kovaryansı): Bu matris, sensörümüzün (GPS) ne kadar "gürültülü" veya güvenilmez olduğunu filtreye söyler. R matrisindeki değerler ne kadar büyükse, filtre GPS'ten gelen ölçümlere o kadar az güvenir. 
