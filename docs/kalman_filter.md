@@ -19,3 +19,4 @@ kf.H (Ölçüm Matrisi): Durum vektörünü, sensörden gelen ölçüm formatın
 
 kf.R (Ölçüm Gürültüsü Kovaryansı): Bu matris, sensörümüzün (GPS) ne kadar "gürültülü" veya güvenilmez olduğunu filtreye söyler. R matrisindeki değerler ne kadar büyükse, filtre GPS'ten gelen ölçümlere o kadar az güvenir. Kodumda kf.R *= 0.3 satırı ile varsayılan gürültü değerini biraz düşürerek GPS ölçümlerine olan güvenimi bir miktar artırdım. Bu değeri, gerçek dünya testlerinde aracın Kalman filtresiyle elde edilen konumunun ham GPS verisine ne kadar yakın olmasını istediğime göre ayarladım.
 
+kf.Q (Süreç Gürültüsü Kovaryansı): Bu matris ise, kullandığım hareket modelinin (sabit hız varsayımı) gerçek dünyaya ne kadar uyduğunu temsil eder. Q matrisindeki değerler ne kadar büyükse, filtre kendi hareket modeline o kadar az güvenir.
