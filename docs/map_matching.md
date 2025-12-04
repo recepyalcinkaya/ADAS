@@ -1,1 +1,1 @@
-
+Kalman Filtresi, GPS verisindeki rastgele sıçramaları ve gürültüyü başarıyla temizlese de, filtrelenmiş konum hala pistin ideal çizgisinin biraz dışında olabilir. Sürücünün küçük bir hata yapması veya GPS'in sistematik bir kayması olması durumunda, aracın haritada yoldan çıkmış gibi görünmesi istenmeyen bir durumdur. Bu sorunu çözmek için “Map Matching (Harita Eşleştirme)” algoritması kullandım.
