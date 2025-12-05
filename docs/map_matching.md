@@ -1,1 +1,3 @@
 Kalman Filtresi, GPS verisindeki rastgele sıçramaları ve gürültüyü başarıyla temizlese de, filtrelenmiş konum hala pistin ideal çizgisinin biraz dışında olabilir. Sürücünün küçük bir hata yapması veya GPS'in sistematik bir kayması olması durumunda, aracın haritada yoldan çıkmış gibi görünmesi istenmeyen bir durumdur. Bu sorunu çözmek için “Map Matching (Harita Eşleştirme)” algoritması kullandım.
+
+Map Matching algoritmasının temel amacı, verilen bir coğrafi noktayı (benim kodumda Kalman filtresinden gelen konumu), bilinen bir yol ağı (pist rotası) üzerindeki en yakın noktaya "yapıştırmaktır". Kodumda bu işlemi find_closest_point_on_route fonksiyonu gerçekleştirir.
