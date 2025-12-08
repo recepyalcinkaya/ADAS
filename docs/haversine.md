@@ -1,1 +1,1 @@
-
+Haversine Formülü (Coğrafi Mesafeyi Hesaplama): Projemin bir diğer kritik ihtiyacı, iki coğrafi koordinat arasındaki gerçek mesafeyi (metre cinsinden) hesaplamaktır. Örneğin, aracın bitiş çizgisine ne kadar yakın olduğunu anlamak için bu hesaplama zorunludur. Dünya'nın küresel yapısından dolayı, enlem ve boylam dereceleri arasındaki Öklid mesafesi (düz bir çizgi) doğru sonuç vermez. Bu nedenle, Dünya'nın eğriliğini hesaba katan Haversine formülünü kullandım.
