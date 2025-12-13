@@ -5,3 +5,5 @@ Toplanan ve işlenen tüm verilerin kullanıcı için anlamlı hale gelmesi, iyi
 Ekranı Temizleme: Her bir kare (frame) çizilmeden önce “screen.fill(BG_COLOR)” komutu ile ekran, arka plan rengine boyanır. Bu, önceki karedeki çizimlerin silinmesini ve animasyonun temiz görünmesini sağlar.
 
 Pist Rotasını Çizme: KML dosyasından okunan ve ekran koordinatlarına dönüştürülen “world_to_screen fonksiyonu” ile pist noktaları, “pygame.draw.line” komutu kullanılarak ardışık çizgiler halinde ekrana çizdim. Bu, pistin ana hattını oluşturdum.
+
+Projenin kullanıcı deneyimini zenginleştirmek için basit geometrik şekiller yerine “PNG” formatında görseller kullandım.
