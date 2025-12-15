@@ -8,3 +8,5 @@ Pist Rotasını Çizme: KML dosyasından okunan ve ekran koordinatlarına dönü
 
 Projenin kullanıcı deneyimini zenginleştirmek için basit geometrik şekiller yerine “PNG” formatında görseller kullandım.
 -	Bitiş Çizgisi (dama.png): Damalı bayrak görselini yükledim. Pist üzerindeki bitiş çizgisine uyması için “pygame.transform.rotate” ile bu görseli belirli bir açıyla döndürdüm. “screen.blit(finish_line_image,finish_line_rect)” komutu ile de bu görseli bitiş noktasının koordinatlarına çizdirdim.
+
+-	Araç (arac.png): Benzer şekilde, aracı temsil etmesi için bir araba ikonunu (arac.png) yükledim. Görselin boyutunu ayarladım. Aracın son, filtrelenmiş ve yola oturtulmuş konumu (smoothed_final_pos) hesaplandıktan sonra, bu konuma karşılık gelen ekran pikseline “screen.blit(rotated_car_image, car_rect)” komutu ile araç görselini yerleştirdim.
