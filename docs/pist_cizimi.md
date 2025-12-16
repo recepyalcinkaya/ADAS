@@ -12,3 +12,5 @@ Projenin kullanıcı deneyimini zenginleştirmek için basit geometrik şekiller
 -	Araç (arac.png): Benzer şekilde, aracı temsil etmesi için bir araba ikonunu (arac.png) yükledim. Görselin boyutunu ayarladım. Aracın son, filtrelenmiş ve yola oturtulmuş konumu (smoothed_final_pos) hesaplandıktan sonra, bu konuma karşılık gelen ekran pikseline “screen.blit(rotated_car_image, car_rect)” komutu ile araç görselini yerleştirdim.
 
 Bilgi Metinlerini Yazdırma: “pygame.font.Font” ile bir yazı tipi nesnesi oluşturdum. “font.render(f"Tur: {lap_count}", True, (0, 0, 0))” komutu ile tur sayısını bir metin yüzeyine dönüştürdüm ve bunu “screen.blit” ile ekranın sol üst köşesine yerleştirdim.
+
+Ekranı Güncelleme: Tüm çizim işlemleri bittikten sonra, “pygame.display.flip()” komutu, bellekte hazırlanan bu yeni kareyi ekranda görünür hale getirir. clock.tick(30) ise programın saniyede en fazla 30 kare (30 FPS) ile çalışmasını sağlayarak işlemcinin gereksiz yere yorulmasını engeller.
