@@ -7,3 +7,6 @@ Sistemin temel çalışma prensibi, aracın önceden tanımlanmış bir "bitiş 
 3.	Bitiş Çizgisinden Geçiş Tespiti: Hesaplanan bu mesafe, tanımlanan yarıçaptan (FINISH_RADIUS_DEGREES)’den küçükse, aracın bitiş çizgisinden geçtiği kabul edilir.
 
 4.	Tekrarlı Sayımı Önleme: Araç bitiş bölgesinde bir süre kalabilir. Bu süre boyunca tur sayacının sürekli artmasını önlemek için bir bayrak “is_in_finish_zone” ve bir bekleme süresi cooldown mekanizması geliştirdim.
+o	Araç bölgeye ilk kez girdiğinde “if not is_in_finish_zone” ile tur sayacı bir artırılır. 
+“lap_count += 1”
+o	Aynı anda “lap_cooldown_active” bayrağı True yapılır ve “lap_cooldown_end_time” ile bir sonraki tur sayımının ne zaman yapılabileceği belirlenir (örneğin, 3 saniye sonrası). Bu, aracın bitiş çizgisinden geçtikten hemen sonra geri dönmesi gibi durumlarda yanlışlıkla tur sayacının artmasını önler.
