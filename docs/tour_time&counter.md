@@ -5,3 +5,5 @@ Sistemin temel çalışma prensibi, aracın önceden tanımlanmış bir "bitiş 
 2.	Mesafenin Hesaplanması: Ana döngünün her adımında, aracın o anki son konumu (final_pos) ile bitiş noktası (FINISH_POINT) arasındaki mesafe, haversine_distance fonksiyonu kullanılarak metre cinsinden hesaplanır.
 
 3.	Bitiş Çizgisinden Geçiş Tespiti: Hesaplanan bu mesafe, tanımlanan yarıçaptan (FINISH_RADIUS_DEGREES)’den küçükse, aracın bitiş çizgisinden geçtiği kabul edilir.
+
+4.	Tekrarlı Sayımı Önleme: Araç bitiş bölgesinde bir süre kalabilir. Bu süre boyunca tur sayacının sürekli artmasını önlemek için bir bayrak “is_in_finish_zone” ve bir bekleme süresi cooldown mekanizması geliştirdim.
