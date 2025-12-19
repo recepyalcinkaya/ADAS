@@ -10,3 +10,5 @@ Sistemin temel çalışma prensibi, aracın önceden tanımlanmış bir "bitiş 
 o	Araç bölgeye ilk kez girdiğinde “if not is_in_finish_zone” ile tur sayacı bir artırılır. 
 “lap_count += 1”
 o	Aynı anda “lap_cooldown_active” bayrağı True yapılır ve “lap_cooldown_end_time” ile bir sonraki tur sayımının ne zaman yapılabileceği belirlenir (örneğin, 3 saniye sonrası). Bu, aracın bitiş çizgisinden geçtikten hemen sonra geri dönmesi gibi durumlarda yanlışlıkla tur sayacının artmasını önler.
+
+5.	Tur Süresinin Hesaplanması: Tur tamamlandığı anda, total_race_time = time.time() - start_time komutu ile programın başlangıcından o ana kadar geçen toplam süre hesaplanır.
