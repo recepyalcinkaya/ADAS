@@ -14,3 +14,4 @@ o	Aynı anda “lap_cooldown_active” bayrağı True yapılır ve “lap_cooldo
 5.	Tur Süresinin Hesaplanması: Tur tamamlandığı anda, total_race_time = time.time() - start_time komutu ile programın başlangıcından o ana kadar geçen toplam süre hesaplanır.
 
 6.	Bitiş Çizgisinden Geçme ve Yeni Tura Başlama: Araç bitiş bölgesinden uzaklaştığında, “is_in_finish_zone” bayrağı tekrar False olur ve sistem bir sonraki tur için hazır hale gelir. “lap_cooldown_active” bayrağı da bekleme süresi dolduğunda sıfırlanır.
+Bu mantık sayesinde, sistem tur süresini ve tur sayacını doğru bir şekilde ayarlayabilmektedir.
