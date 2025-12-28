@@ -1,1 +1,1 @@
-
+Projemin temel amacı, Gelişmiş Sürücü Destek Sistemleri ve otonom araç teknolojileri için kritik bir bileşen olan trafik ışıklarının kamera yardımıyla gerçek zamanlı olarak rengini (kırmızı, sarı, yeşil) olarak tespit eden sınıflandıran ve sürücüyü sesli olarak uyaran bir derin öğrenme modeli geliştirmektir.
