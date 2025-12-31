@@ -2,3 +2,4 @@ Projemin temel amacı, Gelişmiş Sürücü Destek Sistemleri ve otonom araç te
 Günümüz araçlarında güvenlik ve konforu artıran sistemlerin temelinde, çevresini doğru ve hızlı bir şekilde algılayan yapay zeka modelleri yatmaktadır. Özellikle şehir içi sürüş senaryolarında, bir aracın trafik ışıklarını anlık olarak algılaması, kazaları önlemek ve trafik akışını düzenlemek için çok önemlidir.
 Bu projedeki ana hedefim, sadece çalışan bir model ortaya koymak değil, aynı zamanda bu modelin eğitim sürecinin nasıl optimize edebileceğimi öğrenmekti.
 Roboflow üzerinden çekeceğim verisetleri sayesinde daha doğru bir şekilde  algılamasını sağlamayı hedefliyorum. Model kadar kullanacağım dataseti bulmak veya hazırlamak da çok önemli.
+Trafik ışığı datasetinin görsel dağılımı yukarda gösterildiği gibi, CUDA’yı ve cuDNN kütüphanesini de kullanarak model eğitim sürecini daha da hızlandıracağım.
