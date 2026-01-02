@@ -1,3 +1,4 @@
 Derin öğrenme modelleri, özellikle görüntü işleme ve nesne algılama gibi yoğun hesaplama gerektiren görevlerde, merkezi işlem birimleri (CPU) yerine grafik işlem birimlerine (GPU) ihtiyaç duyar. GPU'lar, paralel işlem yetenekleri sayesinde milyonlarca hesaplamayı aynı anda yapabilirler, bu da derin öğrenme model eğitim sürelerini kısaltmamıza yardımcı olur.
 
 İşte bu noktada CUDA ve cuDNN kütüphanesi devreye girer:
+•	CUDA (Compute Unified Device Architecture): NVIDIA tarafından geliştirilen bir paralel işlem platformu ve programlama modelidir. Geliştiricilerin GPU'ları genel amaçlı hesaplamalar için kullanmasını sağlar. Yani, derin öğrenme çerçevelerinin (PyTorch, TensorFlow gibi) GPU'nun gücünden faydalanabilmesi için bir köprü görevi görür. Benim modelimin eğitim sürecinde de, CPU yerine NVIDIA GPU'mu kullanarak çok daha hızlı bir eğitim gerçekleştirmemi sağladı.
