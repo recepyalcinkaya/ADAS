@@ -1,2 +1,3 @@
 “Ultralytics” kütüphanesini kullanarak bir YOLOv8 trafik işareti algılama modeli eğitiyorum.
 “from ultralytics import YOLO” Bu satır, Ultralytics kütüphanesinden YOLO sınıfını içe aktarır.
+"yolov8n.pt": Burada belirtilen .pt uzantılı dosya, önceden eğitilmiş model ağırlıklarını (pre-trained weights) temsil eder. "n" harfi "nano" anlamına gelir; yani bu, YOLOv8 ailesinin en küçük ve en hızlı modellerinden biridir
