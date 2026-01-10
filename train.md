@@ -12,3 +12,5 @@ data="data.yaml": Bu parametre, modelin eğitileceği veri setinin yapılandırm
 •	names: Sınıf isimlerinin listesi (örneğin, ['traffic_light', 'car', 'person']).
 
 “epochs=30”: Bu parametre, modelin tüm eğitim veri setini kaç kez göreceğini ve üzerinden öğreneceğini belirtir. Epoch, bir eğitim döngüsünün tamamlanması anlamına gelir. 30 epoch, bu özel durum için belirlenmiş eğitim süresidir. Daha fazla epoch genellikle daha iyi performans sağlayabilir, ancak aynı zamanda aşırı öğrenmeye yol açabilir (overfitting).
+
+imgsz=640: Bu parametre, modelin giriş görüntülerinin boyutunu belirler. Görüntüler, modele beslenmeden önce 640x640 piksel boyutuna yeniden boyutlandırılır. Bu, YOLO modellerinde yaygın olarak kullanılan bir boyuttur ve hız ile doğruluk arasında iyi bir denge sunar.
