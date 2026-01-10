@@ -10,3 +10,5 @@ data="data.yaml": Bu parametre, modelin eğitileceği veri setinin yapılandırm
 •	val: Doğrulama (validation) veri setini içeren görüntü ve etiket dosyalarının yolu. Bu set, modelin eğitim sırasında görmediği veriler üzerindeki performansını izlemek için kullanılır ve aşırı öğrenmeyi (overfitting) tespit etmeye yardımcı olur.
 
 •	names: Sınıf isimlerinin listesi (örneğin, ['traffic_light', 'car', 'person']).
+
+“epochs=30”: Bu parametre, modelin tüm eğitim veri setini kaç kez göreceğini ve üzerinden öğreneceğini belirtir. Epoch, bir eğitim döngüsünün tamamlanması anlamına gelir. 30 epoch, bu özel durum için belirlenmiş eğitim süresidir. Daha fazla epoch genellikle daha iyi performans sağlayabilir, ancak aynı zamanda aşırı öğrenmeye yol açabilir (overfitting).
