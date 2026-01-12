@@ -1,1 +1,1 @@
-
+Ultralytics: kütüphanesi, YOLO modelleriyle çalışmak için özel olarak tasarlanmış, kullanımı kolay ve kapsamlı bir kütüphanedir. YOLO, nesne algılama alanında performanslı ayrıyeten hızı ve doğruluğu sayesinde gerçek zamanlı yapacağım projem için gereklidir.
