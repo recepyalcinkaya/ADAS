@@ -7,4 +7,7 @@ sys: Python interpreterıyla ilgili sistem parametrelerine ve fonksiyonlarına e
 os: İşletim sistemiyle etkileşim kurmak için bir dizi fonksiyon sunar. Dosya ve dizin işlemleri, ortam değişkenlerine erişim gibi işlemler için kullanılır.
 
 pyttsx3: Trafik ışığı algılama modelim "Green" (Yeşil) ışığını algıladığında kullanıcıya sesli olarak "Yeşil yandı!" uyarısını vermek için kullandım.
+
 •	Ses Motoru Başlatma: “engine = pyttsx3.init()” ile ses motorunu başlattım.
+
+•	Konuşma Hızı Ayarı: “engine.setProperty('rate', 125)” ile konuşma hızını ayarladım, bu da uyarıların daha doğal ve anlaşılır olmasını sağladı.
