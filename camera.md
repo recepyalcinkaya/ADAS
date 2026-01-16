@@ -1,1 +1,1 @@
-
+Modelimi gerçek dünya senaryolarında test etmek için Logitech 1080p kameramı kullandım. Bu kamera, yüksek çözünürlüklü (1920x1080 piksel) görüntü yakalama yeteneği sayesinde, trafik ışıklarının detaylarını net bir şekilde algılamam için yeterli kalitede bir görüntü akışı sağladı. Kamerayı bilgisayarıma bağladım ve OpenCV kütüphanesi aracılığıyla canlı video akışını aldım. Kameranın 1080p çözünürlüğü, algılama modelimin küçük boyutlu veya uzaktaki trafik ışıklarını bile daha iyi ayırt eder
