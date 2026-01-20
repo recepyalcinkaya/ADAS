@@ -7,3 +7,5 @@ camera_index: Bilgisayarda takılı olan kameraları temsil eden bir sayıdır.
 cap = cv2.VideoCapture(camera_index): OpenCV kütüphanesini kullanarak belirlenen kamera indeksinden video akışını yakalamak için bir “VideoCapture” nesnesi oluşturur.
 
 print(f"Hata: Kamera açılamadı. '{camera_index}' indeksinde kamera bulunamadı."): Eğer önceki if koşulu True ise (yani kamera açılamadıysa), bu hata mesajı konsola yazdırılır.
+
+sys.exit(): Eğer kamera açılamazsa, bu satır programın hemen sonlandırılmasını sağlar.
