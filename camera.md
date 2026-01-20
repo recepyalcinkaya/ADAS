@@ -9,3 +9,5 @@ cap = cv2.VideoCapture(camera_index): OpenCV kütüphanesini kullanarak belirlen
 print(f"Hata: Kamera açılamadı. '{camera_index}' indeksinde kamera bulunamadı."): Eğer önceki if koşulu True ise (yani kamera açılamadıysa), bu hata mesajı konsola yazdırılır.
 
 sys.exit(): Eğer kamera açılamazsa, bu satır programın hemen sonlandırılmasını sağlar.
+
+actual_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)): Kameranın anlık video akışının genişliğini piksel cinsinden alır.
