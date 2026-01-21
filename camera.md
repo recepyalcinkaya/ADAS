@@ -13,3 +13,5 @@ sys.exit(): Eğer kamera açılamazsa, bu satır programın hemen sonlandırılm
 actual_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)): Kameranın anlık video akışının genişliğini piksel cinsinden alır.
 
 actual_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)): Kameranın anlık video akışının yüksekliğini piksel cinsinden alır ve “actual_height” değişkenine atar.
+
+actual_fps = cap.get(cv2.CAP_PROP_FPS): Kameranın anlık kare hızını (FPS’ini) alır.
