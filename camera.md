@@ -17,3 +17,5 @@ actual_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)): Kameranın anlık video
 actual_fps = cap.get(cv2.CAP_PROP_FPS): Kameranın anlık kare hızını (FPS’ini) alır.
 
 print(f"Kamera başarıyla açıldı. Algılanan Çözünürlük: {actual_width}x{actual_height}, FPS: {actual_fps:.2f}"): Kamera başarıyla açıldığında, kullanıcıya kamera hakkında bilgilendirme mesajı yazdırılır.
+
+print("Çıkmak için 'q' tuşuna basın."): Kullanıcıya, video akışı penceresi açıldıktan sonra programdan “q” tuşuna basarak çıkılabileceği söyler.
