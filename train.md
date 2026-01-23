@@ -18,3 +18,5 @@ imgsz=640: Bu parametre, modelin giriş görüntülerinin boyutunu belirler. Gö
 Eğittiğim YOLOv8 modelimin ağırlıklarını (parametrelere verilen isim) Python programıma yüklememi sağlıyor. Bu adım, modelin canlı kamera görüntüleri üzerinde nesne algılama yapabilmesi için gereklidir. 
 
 “trained_model_path” eğittiğim modelimin bilgisayarımda kayıtlı olduğu yolu tanımlar.
+
+“if not os.path.exists(trained_model_path):” Belirtilen model dosyamın sistemde gerçekten var olup olmadığını kontrol eder.
