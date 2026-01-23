@@ -15,5 +15,6 @@ data="data.yaml": Bu parametre, modelin eğitileceği veri setinin yapılandırm
 
 imgsz=640: Bu parametre, modelin giriş görüntülerinin boyutunu belirler. Görüntüler, modele beslenmeden önce 640x640 piksel boyutuna yeniden boyutlandırılır. Bu, YOLO modellerinde yaygın olarak kullanılan bir boyuttur ve hız ile doğruluk arasında iyi bir denge sunar.
 
-
 Eğittiğim YOLOv8 modelimin ağırlıklarını (parametrelere verilen isim) Python programıma yüklememi sağlıyor. Bu adım, modelin canlı kamera görüntüleri üzerinde nesne algılama yapabilmesi için gereklidir. 
+
+“trained_model_path” eğittiğim modelimin bilgisayarımda kayıtlı olduğu yolu tanımlar.
