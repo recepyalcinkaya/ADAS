@@ -22,3 +22,5 @@ Eğittiğim YOLOv8 modelimin ağırlıklarını (parametrelere verilen isim) Pyt
 “if not os.path.exists(trained_model_path):” Belirtilen model dosyamın sistemde gerçekten var olup olmadığını kontrol eder.
 
 “print(f"Hata: Model dosyası bulunamadı: {trained_model_path}"):” Eğer model dosyası belirtilen yolda bulunamazsa, kullanıcıya bir hata mesajı gönderilir.
+
+“model = YOLO(trained_model_path):” Bu satır, ultralytics kütüphanesinin YOLO sınıfını kullanarak eğitilmiş model ağırlıklarını belleğe yükler.
