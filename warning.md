@@ -1,1 +1,1 @@
-green_light_detected_flag = False değişkeni, "Yeşil yandı!" sesli uyarısının arka arkaya, gereksiz yere tekrarlanmasını önlemek için bir kontrol bayrağı görevi görür.
+green_light_detected_flag = False değişkeni, "Yeşil yandı!" sesli uyarısının arka arkaya, gereksiz yere tekrarlanmasını önlemek için bir kontrol bayrağı görevi görür ve modelin o an ki karede bir "Green" (yeşil) trafik ışığı algılayıp algılamadığı kontrol edilir.
