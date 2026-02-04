@@ -5,3 +5,5 @@ Eğer yeşil ışık algılanmışsa, ikinci kontrol devreye girer. Bu kontrol, 
 engine.say("Yeşil yandı") komutu ile “pyttsx3” kütüphanesi kullanılarak sesli uyarı tetiklenir.
 
 engine.runAndWait() Sesli uyarının tamamen oynatılmasını bekler.
+
+green_light_detected_flag = True yapılarak bayrak güncellenir, bu da aynı yeşil ışık algılandığı sürece uyarının tekrar etmesini engeller.
