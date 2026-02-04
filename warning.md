@@ -3,3 +3,5 @@ green_light_detected_flag = False değişkeni, "Yeşil yandı!" sesli uyarısın
 Eğer yeşil ışık algılanmışsa, ikinci kontrol devreye girer. Bu kontrol, daha önce de belirtildiği gibi, "Yeşil yandı!" uyarısının zaten verilip verilmediğini kontrol eder. Eğer henüz verilmediyse konsola "Yeşil yandı!" mesajı yazdırılır.
 
 engine.say("Yeşil yandı") komutu ile “pyttsx3” kütüphanesi kullanılarak sesli uyarı tetiklenir.
+
+engine.runAndWait() Sesli uyarının tamamen oynatılmasını bekler.
