@@ -9,3 +9,5 @@ engine.runAndWait() Sesli uyarının tamamen oynatılmasını bekler.
 green_light_detected_flag = True yapılarak bayrak güncellenir, bu da aynı yeşil ışık algılandığı sürece uyarının tekrar etmesini engeller.
 
 Eğer detected_class_names listesinde "Green" ışığı yoksa (yani yeşil ışık algılanmıyorsa veya ekrandan kaybolduysa), else bloğu çalışır ve green_light_detected_flag = False yapılarak bayrak sıfırlanır. Bu, yeşil ışık daha sonra tekrar belirdiğinde yeni bir sesli uyarının tetiklenebilmesini sağlar.
+
+if cv2.waitKey(1) & 0xFF == ord('q'): Kullanıcının klavyede “q” tuşuna bastığını kontrol eder.
