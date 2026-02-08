@@ -17,6 +17,15 @@ imgsz=640: Bu parametre, modelin giriş görüntülerinin boyutunu belirler. Gö
 
 Eğittiğim YOLOv8 modelimin ağırlıklarını (parametrelere verilen isim) Python programıma yüklememi sağlıyor. Bu adım, modelin canlı kamera görüntüleri üzerinde nesne algılama yapabilmesi için gereklidir. 
 
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+trained_model_path = "C:/Users/recep/runs/detect/train2/weights/best.pt ”
+if not os.path.exist(trained_model_path):
+print(f"Hata: Model dosyası bulunamadı: {trained_model_path}")
+sys.exit()
+model = YOLO(trained_model_path)
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
 “trained_model_path” eğittiğim modelimin bilgisayarımda kayıtlı olduğu yolu tanımlar.
 
 “if not os.path.exists(trained_model_path):” Belirtilen model dosyamın sistemde gerçekten var olup olmadığını kontrol eder.
