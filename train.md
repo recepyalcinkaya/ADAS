@@ -20,10 +20,14 @@ Eğittiğim YOLOv8 modelimin ağırlıklarını (parametrelere verilen isim) Pyt
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-trained_model_path = "C:/Users/recep/runs/detect/train2/weights/best.pt ”
+trained_model_path = "C:/Users/recep/runs/detect/train2/weights/best.pt"
+
 if not os.path.exist(trained_model_path):
+
 print(f"Hata: Model dosyası bulunamadı: {trained_model_path}")
+
 sys.exit()
+
 model = YOLO(trained_model_path)
 
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
