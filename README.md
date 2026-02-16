@@ -11,3 +11,13 @@ Temel hedef, aracın çevresel farkındalığını (perception) artırarak karma
 🚀 Modüller ve Özellikler (Modules)
 
 Bu repo şu an için aşağıdaki temel otonom sürüş ADAS fonksiyonları bileşenlerini barındırmaktadır ve geliştirilmeye devam edilmektedir:
+
+🚦 1. Trafik Işıkları Tanıma (Traffic Light Recognition)
+
+Otonom aracın kavşaklarda ışık durumunu analiz ederek (Kırmızı, Sarı, Yeşil) durma veya geçme kararı vermesini sağlayan modüldür.
+**Teknik Yaklaşım:** Renk uzayı analizi (HSV) ve morfolojik işlemler ile ışık tespiti.
+
+**Kabiliyet:**
+    * Gerçek zamanlı durum sınıflandırma.
+    * Farklı ışık koşullarına (gölge/parlama) adaptasyon.
+    * Araç kontrolcüsüne "Dur/Geç" ses sinyali üretimi.
