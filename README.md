@@ -7,3 +7,7 @@ Bu repo, **Pamukkale Üniversitesi ATAY Takımı** bünyesinde geliştirilen oto
 Geliştirilen modüller, **Teknofest Robotaksi Binek Otonom Araç** ve **Elektrikli Araç** yarışmalarının parkur ve güvenlik standartlarına uygun olarak tasarlanmıştır. Proje; gerçek zamanlı görüntü işleme, derin öğrenme tabanlı nesne tespiti ve otonom karar verme mekanizmalarına odaklanmaktadır.
 
 Temel hedef, aracın çevresel farkındalığını (perception) artırarak karmaşık trafik senaryolarında güvenli ve stabil bir sürüş sağlamaktır.
+
+🚀 Modüller ve Özellikler (Modules)
+
+Bu repo şu an için aşağıdaki temel otonom sürüş ADAS fonksiyonları bileşenlerini barındırmaktadır ve geliştirilmeye devam edilmektedir:
