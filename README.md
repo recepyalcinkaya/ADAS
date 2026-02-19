@@ -30,7 +30,11 @@ Aracın yarış parkurunu çizerek en optimum rotada kalmasını sağlayan navig
 Proje geliştirme sürecinde aşağıdaki teknolojiler kullanılmaktadır:
 
 | **Programlama Dili** | Python 3.x |
+
 | **Görüntü İşleme** | OpenCV, NumPy |
+
 | **Derin Öğrenme** | PyTorch, Ultralytics YOLO |
+
 | **Donanım** | Raspberry Pi 5, Kamera Modülleri |
+
 | **Veri Analizi** | Pandas, Matplotlib |
