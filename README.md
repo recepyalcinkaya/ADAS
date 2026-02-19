@@ -21,3 +21,16 @@ Otonom aracın kavşaklarda ışık durumunu analiz ederek (Kırmızı, Sarı, Y
     * Gerçek zamanlı durum sınıflandırma.
     * Farklı ışık koşullarına (gölge/parlama) adaptasyon.
     * Araç kontrolcüsüne "Dur/Geç" ses sinyali üretimi.
+
+🏁 2. Yarış Navigasyonu (Race Navigation)
+Aracın yarış parkurunu çizerek en optimum rotada kalmasını sağlayan navigasyon sistemidir.
+
+🛠️ Teknoloji Yığını (Tech Stack)
+
+Proje geliştirme sürecinde aşağıdaki teknolojiler kullanılmaktadır:
+
+| **Programlama Dili** | Python 3.x |
+| **Görüntü İşleme** | OpenCV, NumPy |
+| **Derin Öğrenme** | PyTorch, Ultralytics YOLO |
+| **Donanım** | Raspberry Pi 5, Kamera Modülleri |
+| **Veri Analizi** | Pandas, Matplotlib |
