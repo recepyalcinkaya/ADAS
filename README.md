@@ -38,3 +38,8 @@ Proje geliştirme sürecinde aşağıdaki teknolojiler kullanılmaktadır:
 | **Donanım** | Raspberry Pi 5, Kamera Modülleri |
 
 | **Veri Analizi** | Pandas, Matplotlib |
+
+📅 Gelecek Planları (Roadmap)
+
+Proje, otonom sürüşün diğer katmanlarını da kapsayacak şekilde genişletilmektedir:
+
