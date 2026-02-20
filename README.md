@@ -43,3 +43,12 @@ Proje geliştirme sürecinde aşağıdaki teknolojiler kullanılmaktadır:
 
 Proje, otonom sürüşün diğer katmanlarını da kapsayacak şekilde genişletilmektedir:
 
+-Yarış Navigasyonu: Görüntü işleme tabanlı şerit tespiti ve rota planlama algoritmaları ile desteklenmesi.
+
+-Trafik Levhası Tanıma: Derin öğrenme (YOLO) ile trafik işaretlerinin tespiti ve sınıflandırılması.
+
+-Hasarlı Levha Analizi: Zorlu koşullarda (yıpranmış, kapanmış) levha tespiti için özelleşmiş modeller.
+
+-Nesne Tespiti: Yaya ve engel algılama sistemlerinin entegrasyonu.
+
+-Sensör Füzyonu: Kamera verilerinin diğer sensörlerle birleştirilmesi.
