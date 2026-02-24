@@ -21,3 +21,9 @@ Bir derin öğrenme modelinin sadece laboratuvar ortamında değil, sahada da ç
 ### C. Negatif (Background) Veri (%10)
 * **Tanım:** İçinde tespit edilecek nesnenin **hiç bulunmadığı** görüntüler.
 * **Amaç:** "False Positive" (Yanlış Pozitif) oranını düşürmek. Modelin her gördüğü şekli o nesne sanmasını engeller.
+
+## 2. Veri Bölümleme (Splitting)
+Veri seti aşağıdaki oranlarda 3 parçaya ayrılmalıdır:
+* **Train (%70):** Modelin ağırlıklarını güncellediği ana veri.
+* **Validation (%20):** Eğitim sırasında hiperparametre ayarı ve "Early Stopping" kontrolü için kullanılır. (Asla eğitime dahil edilmez).
+* **Test (%10):** Model bittikten sonra "hiç görmediği" verideki başarısıdır. **Önemli:** Test seti, sahadaki en zor senaryoları da içermelidir.
