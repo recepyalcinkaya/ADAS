@@ -17,3 +17,7 @@ Bir derin öğrenme modelinin sadece laboratuvar ortamında değil, sahada da ç
     * **Lighting (Aydınlatma):** Aşırı parlak (parlama) veya çok karanlık (gölge) ortamlar.
     * **Deformasyon:** Nesnenin ezilmiş, bükülmüş veya rengi solmuş halleri.
 * **Amaç:** Modelin ezberlemesini (overfitting) engellemek ve zor koşullarda genelleme yapabilmesini sağlamak.
+
+### C. Negatif (Background) Veri (%10)
+* **Tanım:** İçinde tespit edilecek nesnenin **hiç bulunmadığı** görüntüler.
+* **Amaç:** "False Positive" (Yanlış Pozitif) oranını düşürmek. Modelin her gördüğü şekli o nesne sanmasını engeller.
