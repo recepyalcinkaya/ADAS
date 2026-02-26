@@ -6,3 +6,5 @@ Bu bölüm, veri seti üzerinde model eğitilirken dikkat edilmesi gereken tekni
 Sabit bir sayı (örneğin "100 epoch") her zaman doğru değildir. Aşağıdaki strateji izlenmelidir:
 
 * **Başlangıç:** Genellikle 100-300 epoch ile başlanabilir (Dataset boyutuna göre değişir).
+
+* **Early Stopping (Erken Durdurma):** "Validation Loss" değeri belirli bir süre (örneğin 10-20 epoch boyunca) düşmeyi bırakıp artmaya başlarsa eğitim otomatik durdurulmalıdır. Bu, "Overfitting" (Ezberleme) başladığının işaretidir.
