@@ -5,3 +5,4 @@ Bu bölüm, veri seti üzerinde model eğitilirken dikkat edilmesi gereken tekni
 ## 1. Epoch Sayısı Nasıl Belirlenir?
 Sabit bir sayı (örneğin "100 epoch") her zaman doğru değildir. Aşağıdaki strateji izlenmelidir:
 
+* **Başlangıç:** Genellikle 100-300 epoch ile başlanabilir (Dataset boyutuna göre değişir).
