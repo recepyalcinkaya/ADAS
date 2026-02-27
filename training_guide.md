@@ -10,3 +10,7 @@ Sabit bir sayı (örneğin "100 epoch") her zaman doğru değildir. Aşağıdaki
 * **Early Stopping (Erken Durdurma):** "Validation Loss" değeri belirli bir süre (örneğin 10-20 epoch boyunca) düşmeyi bırakıp artmaya başlarsa eğitim otomatik durdurulmalıdır. Bu, "Overfitting" (Ezberleme) başladığının işaretidir.
 
 * **Kural:** Training Loss düşüyor ama Validation Loss artıyorsa -> **Overfitting**. Epoch sayısını azaltın veya Regularization (Dropout, Weight Decay) artırın.
+
+## 2. Batch Size
+* GPU belleğinin izin verdiği en yüksek 2'nin üssü (16, 32, 64) seçilmelidir.
+* Küçük Batch Size (8-16): Daha gürültülü gradyanlar oluşturur, bazen yerel minimumlardan kaçmaya yardımcı olur (Regularization etkisi).
