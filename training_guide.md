@@ -8,3 +8,5 @@ Sabit bir sayı (örneğin "100 epoch") her zaman doğru değildir. Aşağıdaki
 * **Başlangıç:** Genellikle 100-300 epoch ile başlanabilir (Dataset boyutuna göre değişir).
 
 * **Early Stopping (Erken Durdurma):** "Validation Loss" değeri belirli bir süre (örneğin 10-20 epoch boyunca) düşmeyi bırakıp artmaya başlarsa eğitim otomatik durdurulmalıdır. Bu, "Overfitting" (Ezberleme) başladığının işaretidir.
+
+* **Kural:** Training Loss düşüyor ama Validation Loss artıyorsa -> **Overfitting**. Epoch sayısını azaltın veya Regularization (Dropout, Weight Decay) artırın.
