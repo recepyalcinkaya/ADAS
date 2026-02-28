@@ -14,3 +14,4 @@ Sabit bir sayı (örneğin "100 epoch") her zaman doğru değildir. Aşağıdaki
 ## 2. Batch Size
 * GPU belleğinin izin verdiği en yüksek 2'nin üssü (16, 32, 64) seçilmelidir.
 * Küçük Batch Size (8-16): Daha gürültülü gradyanlar oluşturur, bazen yerel minimumlardan kaçmaya yardımcı olur (Regularization etkisi).
+* Büyük Batch Size (64+): Daha stabil eğitim sağlar ancak "Learning Rate"in de orantılı artırılması gerekir.
