@@ -20,3 +20,4 @@ Sabit bir sayı (örneğin "100 epoch") her zaman doğru değildir. Aşağıdaki
 Sadece "Accuracy" yeterli değildir. Nesne tespiti için şu metrikleri takip edin:
 * **mAP@0.5 (mean Average Precision):** Nesnenin ne kadar doğru sınıflandırıldığı ve kutunun ne kadar doğru çizildiği.
 * **Recall (Duyarlılık):** Var olan nesnelerin kaçını kaçırdık? (Güvenlik kritik sistemlerde bu çok önemlidir).
+* **Precision (Kesinlik):** Bulduğumuz nesnelerin kaçı gerçekten doğru?
