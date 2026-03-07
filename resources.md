@@ -5,3 +5,5 @@
 * **Roboflow:** Veri seti yönetimi, versiyonlama ve otomatik augmentation için platform.
 
 ## 📚 Kilit Kavramlar ve Okumalar
+* **Data Augmentation (Veri Çoğaltma):**
+    * *Mozaik (Mosaic) Augmentation:* 4 farklı resmi birleştirerek küçük nesnelerin tespitini iyileştirir (YOLOv4+ ile popülerleşti).
