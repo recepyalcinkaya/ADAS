@@ -10,3 +10,5 @@
 * *MixUp:* İki resmi şeffaf bir şekilde üst üste bindirerek modelin kesin kararlar yerine olasılıksal düşünmesini sağlar.
 * **Curriculum Learning:**
     * Modeli önce sadece "kolay/temiz" verilerle eğitip, epoch ilerledikçe "zor/problemli" verileri kademeli olarak eğitime dahil etme stratejisi.
+* **IoU (Intersection over Union):**
+    * Tahmin edilen kutu ile gerçek kutunun ne kadar örtüştüğünü gösteren metrik.
