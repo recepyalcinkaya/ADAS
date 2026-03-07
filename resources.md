@@ -7,3 +7,4 @@
 ## 📚 Kilit Kavramlar ve Okumalar
 * **Data Augmentation (Veri Çoğaltma):**
     * *Mozaik (Mosaic) Augmentation:* 4 farklı resmi birleştirerek küçük nesnelerin tespitini iyileştirir (YOLOv4+ ile popülerleşti).
+* *MixUp:* İki resmi şeffaf bir şekilde üst üste bindirerek modelin kesin kararlar yerine olasılıksal düşünmesini sağlar.
