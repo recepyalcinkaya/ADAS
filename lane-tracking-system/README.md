@@ -20,3 +20,11 @@ A robust, real-time advanced lane detection pipeline built with OpenCV. This pro
    ```bash
    git clone [https://github.com/recepyalcinkaya/ADAS/lane-tracking-system.git](https://github.com/recepyalcinkaya/ADAS/lane-tracking-system.git)
    cd lane-tracking-system
+
+2. Install the required dependencies: 
+pip install -r requirements.txt
+
+3. Run the tracking system on a sample video:
+python main.py --video data/test_videos/your_video.mp4
+
+Note: If you want to recalibrate the camera with your own dataset, add images to data/calibration_images/ and run python main.py --calibrate
