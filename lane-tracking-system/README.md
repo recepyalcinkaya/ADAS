@@ -18,5 +18,5 @@ A robust, real-time advanced lane detection pipeline built with OpenCV. This pro
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/recepyalcinkaya/lane-tracking-system.git](https://github.com/recepyalcinkaya/lane-tracking-system.git)
+   git clone [https://github.com/recepyalcinkaya/ADAS/lane-tracking-system.git](https://github.com/recepyalcinkaya/ADAS/lane-tracking-system.git)
    cd lane-tracking-system
