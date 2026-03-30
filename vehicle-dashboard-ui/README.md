@@ -20,3 +20,9 @@ An interactive, touch-enabled central display interface developed for the vehicl
    git clone [https://github.com/YOUR_GITHUB_USERNAME/vehicle-dashboard-ui.git](https://github.com/YOUR_GITHUB_USERNAME/vehicle-dashboard-ui.git)
    cd vehicle-dashboard-ui
 
+2. Install the required dependencies: 
+pip install -r requirements.txt
+## Note: For Linux edge devices, you may also need to install Qt base packages via sudo apt-get install python3-pyqt5 depending on your environment
+
+3. Run the interface:
+python main.py
