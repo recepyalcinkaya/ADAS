@@ -1,4 +1,4 @@
-![Live Demo](./assets/serit-takip-video_gif.gif)
+![Live Demo](./assets/serit-takip-video-gif.gif)
 
 # Lane Tracking System (LTS)
 
