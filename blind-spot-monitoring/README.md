@@ -1,3 +1,5 @@
+![Kör Nokta Görseli](assets/kor_nokta.jpeg)
+
 # Blind Spot Monitoring System (BSM)
 
 A real-time hardware-software integrated Blind Spot Monitoring system designed for ADAS applications. This project demonstrates sensor data acquisition, dynamic distance evaluation, and multi-sensor fusion to alert drivers of hazards in adjacent lanes.
