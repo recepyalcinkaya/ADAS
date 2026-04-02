@@ -1,3 +1,5 @@
+![Live Demo](./assets/navigation-gif.gif)
+
 # EV Racing Navigation & Telemetry System
 
 A field-tested, custom-built GPS navigation and lap-timing system designed for competition-level Electric Vehicles. This module successfully powered an EV during the **TEKNOFEST EV Racing Competition**, earning the "Successful" technical certification label.
