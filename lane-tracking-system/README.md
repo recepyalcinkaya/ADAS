@@ -1,3 +1,5 @@
+![Live Demo](./assets/serit-takip-video_gif.gif)
+
 # Lane Tracking System (LTS)
 
 A robust, real-time advanced lane detection pipeline built with OpenCV. This project demonstrates core Advanced Driver-Assistance Systems (ADAS) concepts by processing front-facing camera feeds to identify lane boundaries and estimate the drivable area.
