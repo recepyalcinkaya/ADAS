@@ -1,3 +1,5 @@
+![Live Demo](./assets/Traffic_light_detection_gif.gif)
+
 # 🚦 Traffic Light Detection & Audio Alert System
 
 A real-time deep learning module designed for the ADAS suite. This system utilizes a custom-trained YOLOv8 model to detect and classify traffic lights. It features an integrated Human-Machine Interface (HMI) that provides immediate text-to-speech (TTS) audio feedback to the driver/pilot when a green light is detected.
