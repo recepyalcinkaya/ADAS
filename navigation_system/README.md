@@ -1,4 +1,4 @@
-![Live Demo](./assets/navigation-gif.gif)
+<img src="./assets/navigation-gif.gif" alt="" style="display: block; margin: 0 auto; width: 300px;">
 
 # EV Racing Navigation & Telemetry System
 
