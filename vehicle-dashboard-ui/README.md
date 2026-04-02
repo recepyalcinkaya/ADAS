@@ -1,3 +1,5 @@
+![Dashboard_UI_image](assets/Dashboard_UI.jpeg)
+
 # ADAS Vehicle Dashboard UI
 
 An interactive, touch-enabled central display interface developed for the vehicle cabin. Designed to run on Linux edge environments (such as Ubuntu on Raspberry Pi), this centralized dashboard acts as the brain of the driver's visual feedback system, providing instant access to critical safety warnings and system statuses.
