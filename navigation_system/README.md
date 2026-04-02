@@ -1,4 +1,6 @@
-<img src="./assets/navigation-gif.gif" alt="" style="display: block; margin: 0 auto; width: 300px;">
+<div align="center">
+  <img src="./assets/navigation-gif.gif" width="400" alt="ADAS System Demo">
+</div>
 
 # EV Racing Navigation & Telemetry System
 
